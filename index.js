@@ -8,12 +8,6 @@ function parseData(file, callback){
         download: true,
         dynamicTyping: true,
         delimiter: "",
-        // step: function(result) {
-        //     console.log("-------------- ", result.data.customer_name, " --------------")
-        //     console.log("****************************");
-        //     console.log(result.data);
-        //     console.log("****************************");
-        // },
         complete:function(results){
             showData(results.data);
         }
