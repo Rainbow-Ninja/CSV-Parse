@@ -22,7 +22,7 @@ function parseData(file, callback){
 
 function showData(data) {
     console.log("SHOW DATA..... ", data);
-    console.log("-------------- ", data.customer_name, " --------------")
+    console.log("-------------- ", data[0].customer_name, " --------------")
 }
 
 parseData(file, showData);
