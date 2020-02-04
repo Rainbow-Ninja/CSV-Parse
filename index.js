@@ -9,7 +9,7 @@ function parseData(file, callback){
         dynamicTyping: true,
         delimiter: "",
         complete:function(results){
-            showData(results.data);
+            callback(results.data);
         }
     });
 };
